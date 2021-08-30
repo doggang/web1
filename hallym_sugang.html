@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>한림대학교 인덱스(ver.김도현)</title>
+    <link rel="shortcut icon" type="image/x-icon" href="image/hallym_icon.jpg"/>
+<style>
+    body{
+        position: absolute;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        background: url("image/hallym_back.jpg");
+        background-size:100%;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        top: 0%;
+        right: 0%;
+        left: 0%;
+        bottom:0%
+    }
+    header{
+        margin-top: 110px;
+        justify-content: center;
+        position: relative;
+    }
+    header>p{
+        margin-top: 26px;
+        color: white;
+        text-align: center;
+        font-size: 17.8px;
+        font-weight: bold;
+    }
+    section{
+        display: flex;
+        flex-direction: row;
+        margin-top: 120px;
+        position: relative;
+    }
+    #box1{
+        height: 155px;
+        width: 240px;
+        margin: 20px 10px;
+        background-color:#0066b3;
+        color: white;
+        left: -260px;
+        opacity: 0.9;
+        text-align: center;
+    }
+    #box1 p{
+        line-height: 40px;
+        font-size: 18px;
+    }
+    #box2{
+        height: 155px;
+        width: 240px;
+        margin: 20px 10px;
+        background-color: white;
+        color: black;
+        opacity: 0.9;
+        text-align: center;
+    }
+    #box2 p{
+        line-height: 40px;
+        font-size: 18px;
+    }
+    #btn1{
+        height: 39px;
+        width: 110px;
+        color: white;
+        background-color:rgb(20, 20, 40);
+        opacity: 0.9;
+        font-size: 16px;
+        border: none;
+        border-radius: 20px;
+    }
+    #btn1:hover{
+        background-color: black;
+        opacity: 1.0;
+    }
+    #btn2{
+        height: 39px;
+        width: 110px;
+        color: white;
+        background-color: dimgray;
+        opacity: 0.9;
+        font-size: 16px;
+        border: none;
+        border-radius: 20px;
+    }
+    #btn2:hover{
+        background-color: black;
+        opacity: 1.0;
+    }
+    .box>button{
+        border-radius: 10px;
+        border: none;
+        background-color: grey;
+        height: 30px;
+    }
+    footer{
+        position: relative;
+        top: 58px;
+    }
+    footer>a{
+        margin: 0 4px;
+    }
+    address{
+        position: relative;
+        font-style: normal;
+        font-size: 13px;
+        color: white;
+        margin-top: 40px;
+        margin-bottom: 80px;
+        top: 70px;
+        padding-bottom: 40px;
+    }
+    
+</style>
+</head>
+<body>
+        <header>
+            <a href="https://www.hallym.ac.kr/hallym_univ/"><img src="image/hallym_main.png" alt="한림대학교"></a>
+            <p>글로벌 선진 일류대학, 한림대학교<br>
+            융, 복합 교육을 통해 글로벌 인재를 양성합니다.
+            </p>
+        </header>
+        <section id="sec1">
+            <div id="box1" class="box">
+                <p>21학년도 2학기 수강신청</p><br>
+                <input id="btn1" type="button" value="바로가기 > "onClick="window.open('https://haksa.hallym.ac.kr/hluv/')">
+            </div>
+            <div id="box2" class="box">
+                <p>한림대학교</p><br>
+                <input id="btn2" type="button" value="바로가기 > "onClick="window.open('https://www.hallym.ac.kr/hallym_univ/')">
+
+            </div>
+        </section>
+        <footer>
+            <a href="https://blog.naver.com/hallymde1330"><img src="image/blog.png" alt="Naver_blog"></a>
+            <a href="https://www.facebook.com/hallymuni"><img src="image/facebook.png" alt="Facebook"></a>
+            <a href="https://www.instagram.com/hallym_university/"><img src="image/instagram.png" alt="Instagram"></a>
+        </footer>
+        <address>
+            (24252)강원도 춘천시 한림대학길 1 대표 033-248-1000 입학안내 033-248-1302~4 팩스 033-248-3333<br>
+            COPYRIGHT© 2016 HALLYM UNIVERSITY. ALL RIGHTS RESERVED.<br>
+        </address>
+</body>
+</html>
